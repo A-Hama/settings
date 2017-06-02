@@ -1,0 +1,24 @@
+{
+  "extends": "/usr/local/lib/node_modules/stylelint-config-standard",
+  "rules": {
+    "at-rule-empty-line-before": "never",
+    "color-hex-case": "lower",
+    "color-named": "never",
+    "font-family-name-quotes": "always-unless-keyword",
+    "function-url-quotes": ["always", {"except": ["empty"]}],
+    "indentation": 2,
+    "no-empty-source": true,
+    "no-eol-whitespace": true,
+    "no-missing-end-of-source-newline": true,
+    "no-invalid-double-slash-comments": false,
+    "property-no-vendor-prefix": true,
+    "string-quotes": "single",
+    "length-zero-no-unit": true,
+    "function-comma-space-after": "always",
+    "function-parentheses-space-inside": "never",
+    "declaration-colon-space-after": "always",
+    "block-no-empty": true,
+    "selector-pseudo-element-colon-notation": "single",
+    "rule-empty-line-before": ["always", {"except": ["after-single-line-comment", "first-nested"]}]
+  }
+}
