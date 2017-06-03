@@ -12,7 +12,7 @@
     "no-missing-end-of-source-newline": true,
     "no-invalid-double-slash-comments": false,
     "property-no-vendor-prefix": true,
-    "string-quotes": "single",
+    "string-quotes": "double",
     "length-zero-no-unit": true,
     "function-comma-space-after": "always",
     "function-parentheses-space-inside": "never",
